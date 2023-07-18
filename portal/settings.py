@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+from email.policy import default
 from pathlib import Path
 from corsheaders.defaults import default_headers
 from decouple import config
@@ -46,8 +47,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "corsheaders",
+
     'base',
-    'corsheaders',
 ]
 
 MIDDLEWARE = [

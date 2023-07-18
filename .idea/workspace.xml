@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8feee1a2-18de-486a-9ac8-059fb0cba776" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/base/templates/base/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/_base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/base/templates/base/_head.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/_head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/templates/base/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portal/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
