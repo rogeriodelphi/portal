@@ -82,6 +82,9 @@ TEMPLATES = [
     },
 ]
 
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'index'
+
 WSGI_APPLICATION = 'portal.wsgi.application'
 
 AUTH_USER_MODEL = 'contas.MyUser'

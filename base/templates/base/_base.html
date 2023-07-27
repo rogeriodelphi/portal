@@ -7,11 +7,12 @@
 </head>
 
 <body>
-    <div class="container">
-        {% include 'base/navbar.html' %}
+    {% include 'base/_navbar.html' %}
+    <div class="container p-5">
+        {% include 'base/_message.html' %}
         {% block content %}
         {% endblock %}
-        {% include 'base/_footer.html' %}
     </div>
+    {% include 'base/_footer.html' %}
 </body>
 </html>
