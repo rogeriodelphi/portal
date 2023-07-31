@@ -82,9 +82,6 @@ TEMPLATES = [
     },
 ]
 
-LOGIN_URL = 'login'
-LOGIN_REDIRECT_URL = 'index'
-
 WSGI_APPLICATION = 'portal.wsgi.application'
 
 AUTH_USER_MODEL = 'contas.MyUser'
@@ -118,6 +115,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'index'
+
+LOGOUT_REDIRECT_URL = 'index'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/

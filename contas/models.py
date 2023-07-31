@@ -41,12 +41,12 @@ class MyUser(AbstractUser):
     date_joined = models.DateTimeField('date joined', auto_now_add=True)
     is_staff = models.BooleanField(default=True)
     is_active = models.BooleanField(default=False)
-    is_admin = models.BooleanField(default=False)
+    is_admin = models.BooleanField(default=True)
 
     objects = MyUserManager()
 
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['username', 'first_name', 'last_name', 'type_user', 'is_active']
+    REQUIRED_FIELDS = ['username', 'first_name', 'last_name', 'type_user']
 
     class Meta:
         verbose_name = 'Usuário'
