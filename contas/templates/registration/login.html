@@ -6,11 +6,11 @@
             {% csrf_token %}
             <div class="mb-3">
                 <label for="username" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="username" placeholder="email">
+                <input type="email" class="form-control" id="username" name="username">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="password" placeholder="senha">
+                <input type="password" class="form-control" id="password" name="password" minlength="8" placeholder="8 caracteres no mínimo">
             </div>
             <button type="submit" class="btn btn-success">Login</button>
         </form>
