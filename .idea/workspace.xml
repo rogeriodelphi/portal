@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8feee1a2-18de-486a-9ac8-059fb0cba776" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/contas/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,11 +177,24 @@
       <workItem from="1690390007976" duration="9953000" />
       <workItem from="1690473958425" duration="4756000" />
       <workItem from="1690506876470" duration="2641000" />
-      <workItem from="1690830679486" duration="6520000" />
+      <workItem from="1690830679486" duration="7237000" />
+      <workItem from="1690912082852" duration="16000" />
+      <workItem from="1691419241308" duration="3844000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
