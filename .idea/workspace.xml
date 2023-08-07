@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8feee1a2-18de-486a-9ac8-059fb0cba776" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/contas/templates/reset/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contas/templates/reset/password_reset_complete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contas/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/contas/urls.py" afterDir="false" />
     </list>
