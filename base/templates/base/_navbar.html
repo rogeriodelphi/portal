@@ -44,12 +44,12 @@
                 <li><a class="dropdown-item" href="#">Configurações</a></li>
                 <li><a class="dropdown-item" href="#">Perfil</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Sair</a></li>
+                <li><a class="dropdown-item" href="{% url 'logout' %}">Sair</a></li>
             </ul>
     </div>
     {% else %}
-        <button class="btn btn-outline-warning" type="submit">Entrar</button>
-        <button class="btn btn-warning" type="submit">Registrar</button>
+        <button class="btn btn-outline-warning mx-2" onclick="location.href='{% url 'login' %}'">Entrar</button>
+        <button class="btn btn-warning" type="submit" onclick="location.href='{% url 'user_new' %}'">Registrar</button>
     {% endif %}
 </div>
   </div>
